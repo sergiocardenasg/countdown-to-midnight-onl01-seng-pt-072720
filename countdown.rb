@@ -5,10 +5,10 @@ def countdown (integer)
   puts "HAPPY NEW YEAR!"
 end
 
-def countdown_with_sleep (integer)
+def countdown_with_sleep (integer, slp)
   until integer == 0
     return "#{integer} SECONDS!"
-    sleep 1
+    sleep slp
   end
   puts "HAPPY NEW YEAR!"
 end
