@@ -1,6 +1,6 @@
 def countdown (integer)
   while integer > 0
-    return "#{integer} SECONDS!"
+    puts "#{integer} SECONDS!"
     integer -= 1
   end
   puts "HAPPY NEW YEAR!"
